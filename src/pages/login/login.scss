@@ -1,0 +1,77 @@
+.mt-40{
+    margin-top: 40px;
+}
+.login-image{
+    background: url("../../assets/images/869f1342f1d5d15337b2bbf470ad2382.jpg") no-repeat center center fixed; 
+  
+    background-size: cover;
+}
+.login-header{
+    .toolbar-background{
+        background-color:#A21919;
+        opacity: 0.5;
+    }
+    .toolbar-title{
+        color:white;
+    }
+}
+
+.fc-t{
+    color:orange;
+}
+.input{
+    background-color: rgba(0,0,0,0);
+color: #FFFFFF;
+}
+.center{
+    width:7%;
+    text-align: center;
+
+    border-radius: 20px ; 
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;
+}
+.mt-39{
+    background-color: orange;
+margin-top: 39px;
+}
+.item-md{
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent;
+    position:relative;
+    font-size: 1.6rem;
+    font-weight:normal;
+    text-transform:none;
+    color:#000;
+    box-shadow: none;
+}
+.input-cover{
+    position: relative;
+}
+.cntr{
+     text-align: center;
+}
+.omt-15{
+    margin-top: 15px;
+}
+.button-facebook{
+      margin-top: 25px;
+    background-color: #3b5998;
+}
+.button-google{
+    margin-top: 25px;
+     background-color: #c40807;
+}
+.ft-r{
+        float: right;
+    margin-top: 8px;
+}
+.btn-login{
+    color:orange;
+    border:1px solid orange;
+}
+.back-button{
+    color:white;
+}

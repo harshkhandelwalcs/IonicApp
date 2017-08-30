@@ -1,0 +1,25 @@
+.signup-header{
+    .toolbar-background{
+        background-color:#A21919;
+        opacity: 0.5;
+    }
+    .toolbar-title{
+        color:white;
+    }
+}
+
+.signup-image{
+    background: url("../../assets/images/869f1342f1d5d15337b2bbf470ad2382.jpg") no-repeat center center fixed; 
+  
+    background-size: cover;
+}
+.input{
+    background-color: rgba(0,0,0,0);
+color: #FFFFFF;
+}
+.btn-signup{
+    border:1px solid orange;
+}
+.back-button{
+    color:white;
+}

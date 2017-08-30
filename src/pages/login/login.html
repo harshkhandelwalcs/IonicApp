@@ -1,0 +1,35 @@
+<ion-header class="login-header ">
+
+  <ion-navbar class="fc-h">
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="login-image input" padding>
+  <form #userForm="ngForm" >
+    <ion-list>
+
+          <ion-item>
+            <ion-label floating>Name</ion-label>
+            <ion-input type="text" name="name" ngModel></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input type="password" name="password" ngModel></ion-input>
+          </ion-item>
+
+
+
+    </ion-list>
+    <button class="btn-100 btn-login mt-40" (click)="postLogin(userForm.value);userForm.reset()" ion-button outline round>Login</button>
+  </form>
+  <a class="ft-r" href="/">Forgot Password ?</a>
+  <div class="center mt-39">or</div>
+  <div class="cntr fc-t omt-15">register with</div>
+  <button class="button-google" ion-button round full>Google</button>
+  <button class="button-facebook" ion-button round full>Facebook</button>
+
+</ion-content>

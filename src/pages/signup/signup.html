@@ -1,0 +1,31 @@
+<ion-header class="signup-header ">
+
+  <ion-navbar>
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="signup-image input" padding>
+  <form #userForm="ngForm" >
+    <ion-list>
+
+          <ion-item>
+            <ion-label floating>Name</ion-label>
+            <ion-input type="text"  name="name" ngModel required></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input type="password" name="password" ngModel required></ion-input>
+          </ion-item>
+
+
+    </ion-list>
+    <button class="btn-100 btn-signup mt-40" (click)="postSignup(userForm.value);userForm.reset()" ion-button outline round>Register</button>
+  </form>
+
+
+</ion-content>
+
